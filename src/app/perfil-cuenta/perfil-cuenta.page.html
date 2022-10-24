@@ -1,0 +1,53 @@
+<!--HEADER-->
+<ion-header>
+  <ion-toolbar color="primary">
+<!--BOTON VOLVER A PERFIL-->
+    <ion-buttons slot="start">
+      <ion-button class="backbtn" routerLink="/perfil" routerDirection="back">
+        <i class='bx bxs-chevron-left'></i>
+      </ion-button></ion-buttons>
+<!--BOTON VOLVER A PERFIL-->
+    <ion-title>Mi Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+<!--HEADER-->
+<ion-content color="primary" >
+  <ion-header color="primary"  >
+    <ion-toolbar color="primary">
+      <div class="ion-text-center " ><p>Actualiza tus datos personales</p></div>
+<!--SECCION AGREGAR DATOS PARA ACTUALIZAR-->
+      <ion-card>
+<!--NOMBRE-->
+      <ion-item>
+        <ion-label position="stacked">Nombre</ion-label>
+        <ion-input placeholder="Ingresa tu nombre"></ion-input>
+      </ion-item>
+<!--APELLIDO-->
+      <ion-item>
+        <ion-label position="stacked">Apellidos</ion-label>
+        <ion-input placeholder="Ingresa tu apellido"></ion-input>
+      </ion-item>
+<!--RUT-->
+      <ion-item>
+        <ion-label position="stacked">Numero de identidad</ion-label>
+        <ion-input placeholder="Ingresa tu Rut"></ion-input>
+      </ion-item>
+<!--CORREO-->
+      <ion-item>
+        <ion-label position="stacked">Correo</ion-label>
+        <ion-input placeholder="Ingresa tu correo"></ion-input>
+      </ion-item>
+<!--CELULAR-->
+      <ion-item>
+        <ion-label position="stacked">Celular</ion-label>
+        <ion-input placeholder="Ingresa tu numero telefonico"></ion-input>
+      </ion-item>
+    </ion-card>
+<!--BOTON ACTUALIZAR DATOS-->
+    <div class="ion-text-center">
+    <ion-button  color="light" fill="solid">Actualizar Datos</ion-button>
+    </div>
+<!--SECCION AGREGAR DATOS PARA ACTUALIZAR-->
+    </ion-toolbar>
+  </ion-header>
+</ion-content>

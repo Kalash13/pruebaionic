@@ -1,0 +1,7 @@
+{
+  "name": "alseco-mov",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
